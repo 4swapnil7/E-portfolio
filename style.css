@@ -106,7 +106,7 @@ html{
 /*home styling */
 .home{
     display:flex;
-    background:url("milky.jpg") no-repeat center;
+    background:url("milkyW.jpg") no-repeat center;
     height:100vh;
     color:#ffff;
     min-height:500px;
