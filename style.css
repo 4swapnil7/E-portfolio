@@ -26,7 +26,7 @@ html{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background:crimson;
+    background:#FFFF00;
 }
 .navbar .max-width{
     display:flex;
@@ -41,11 +41,11 @@ html{
 
 }
 .navbar .logo a span{
-    color:crimson;
+    color:#FFFF00;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color:#ffff
+    color:#FFFF00
 }
 .navbar .menu li {
     list-style:none;
@@ -54,7 +54,7 @@ html{
 
 .navbar .menu li a{
     display:block;
-    color:#ffff;
+    color:#FFFF00;
     font-size:18px;
     font-weight:500;
     margin-left: 25px;
@@ -62,16 +62,16 @@ html{
 
 }
 .navbar .menu li a:hover{
-    color:crimson;
+    color:#FFFF00;
 
 }
 
 .navbar.sticky .menu li a:hover{
-    color:#ffff
+    color:#FFFF00
 }
 /* menu btn-styling*/
 .menu-btn{
-    color:#ffff;
+    color:#FFFF00;
     font-size:23px;
     cursor:pointer;
     display:none;
@@ -81,7 +81,7 @@ html{
     position:fixed;
     height:45px;
     width:42px;
-    background:crimson;
+    background:#FFFF00;
     right:30px;
     bottom:10px;
     text-align:center;
@@ -108,7 +108,7 @@ html{
     display:flex;
     background:url("milkyW.jpg") no-repeat center;
     height:100vh;
-    color:#ffff;
+    color:#FFFF00;
     min-height:500px;
     font-family:'ubuntu',sans-serif;
 }
@@ -134,23 +134,23 @@ html{
 }
 
 .home .home-content .text-3 span{
-    color:crimson;
+    color:#FFFF00;
     font-weight:500;
 }
 .home .home-content a{
     display:inline-block;
-    background:crimson;
+    background:#FFFF00;
     color:#fff;
     font-size:25px;
     padding:12px 36px;
     margin-top:20px;
     border-radius:6px;
-    border:2px solid crimson;
+    border:2px solid #FFFF00;
     transition:all 0.3s ease;
 
 }
 .home .home-content a:hover{
-    color:crimson;
+    color:#FFFF00;
     background:none;
 
 }
@@ -201,7 +201,7 @@ section .title::after{
     left:50%;
     padding:5px;
     font-size:20px;
-    color:crimson;
+    color:#FFFF00;
     background:#fff;
     transform: translateX(-50%);
 }
@@ -212,7 +212,7 @@ section .title::after{
 
 
 .about .title::after{
-    content:"who i am";
+    content:"who I am";
 
 }
 
@@ -238,7 +238,7 @@ section .title::after{
 }
 
 .about .about-content .right .text span{
-    color:crimson;
+    color:#FFFF00;
 }
 
 .about .about-content .right p{
@@ -247,7 +247,7 @@ section .title::after{
 
 .about .about-content .right a{
     display:inline-block;
-    background:crimson;
+    background:#FFFF00;
     color:#fff;
     font-size:20px;
     font-weight:500;
@@ -260,7 +260,7 @@ section .title::after{
 }
 
 .about .about-content .right a:hover{
-    color:crimson;
+    color:#FFFF00;
     background:none;
 }
 
@@ -280,7 +280,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background:#111;
-    content:"what i provide"
+    content:"whatI provide"
 
 }
 
@@ -294,7 +294,7 @@ section .title::after{
     transition:all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background:crimson;
+    background:#FFFF00;
 }
 .services .serv-content .card .box{
     transition:all 0.3s ease;
@@ -307,7 +307,7 @@ section .title::after{
 
 .services .serv-content .card i{
     font-size:50px;
-    color:crimson;
+    color:#FFFF00;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -322,7 +322,7 @@ section .title::after{
 
 /* skills section styling*/
 .skills .title:after{
-    content:"What i know";
+    content:"What I know";
 }
 .skills .skills-content .column{
     width:calc(50% - 30px);
@@ -340,20 +340,20 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display:inline-block;
-    background:crimson;
+    background:#FFFF00;
     color:#fff;
     font-size:18px;
     font-weight:500;
     padding:8px 16px;
     margin-top:20px;
     border-radius:6px;
-    border:2px solid crimson;
+    border:2px solid #FFFF00;
     transition:all 0.3s ease;
 
 
 }
 .skills .skills-content .left a:hover{
-    color:crimson;
+    color:#FFFF00;
     background:none;
 
 }
@@ -385,7 +385,7 @@ section .title::after{
     
     left:0;
     top:0;
-    background:crimson;
+    background:#FFFF00;
 
 }
 .skills-content .right .html::before{
@@ -406,7 +406,7 @@ section .title::after{
 
 /* teams section styling*/
 .teams .title::after{
-    content:"who with me";
+    content:"GUYS IN MY TEAM";
 
 }
 .teams .carousel .card{
@@ -417,7 +417,7 @@ section .title::after{
     transition:all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background:crimson;
+    background:#FFFF00;
 }
 .teams .carousel .card .box{
     display:flex;
@@ -439,7 +439,7 @@ section .title::after{
     width:150px;
     object-fit:cover;
     border-radius:50%;
-    border:5px solid crimson;
+    border:5px solid #FFFF00;
     transition:all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -455,7 +455,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border:2px solid crimson!important;
+    border:2px solid #FFFF00!important;
     transition:all 0.3s ease;
 }
 .owl-dot.active{
@@ -464,12 +464,12 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background:crimson!important;
+    background:#FFFF00!important;
 }
 
 /* contact section styling */
 .contact .title:after{
-    content:"get in touch";
+    content:"Get in touch";
 
 }
 
@@ -500,7 +500,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size:25px;
-    color:crimson;
+    color:#FFFF00;
 }
 .contact .contact-content .info .head{
     font-weight:500;
@@ -550,8 +550,8 @@ section .title::after{
 .contact .right form .button button{
     width:100%;
     height:100%;
-    border:2px solid crimson;
-    background:crimson;
+    border:2px solid #FFFF00;
+    background:#FFFF00;
     color:#fff;
     font-size:20px;
     font-weight:500;
@@ -560,7 +560,7 @@ section .title::after{
     transition:all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color:crimson;
+    color:#FFFF00;
     background:none;
 }
 /* footer styling*/
@@ -571,7 +571,7 @@ footer{
 
 }
 footer span a{
-    color:crimson;
+    color:#FFFF00;
     text-decoration:none;
 
 }
