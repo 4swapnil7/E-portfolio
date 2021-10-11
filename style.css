@@ -106,7 +106,7 @@ html{
 /*home styling */
 .home{
     display:flex;
-    background:url("black.jpg") no-repeat center;
+    background:url("Myself.jpg") no-repeat center;
     height:100vh;
     color:#ffff;
     min-height:500px;
